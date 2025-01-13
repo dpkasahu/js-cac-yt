@@ -54,6 +54,10 @@ users[1].email
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+
+//json talk........
+
+
 const course = {
     coursename: "js in hindi",
     price: "999",
