@@ -49,13 +49,13 @@ for (const [key, value] of map) {
 }
 
 const myObject1 = {
-    game1: 'NFS',
-    game2: 'Spiderman'
+    game1: 'Deepika',
+    game2: 'Bapun'
 }
 
 // for (const [key, value] of myObject1) {
 //     console.log(key, ':-', value);
-    
+    //(will give error bcz objects cant be used )
 // }
 
 const myObject = {
