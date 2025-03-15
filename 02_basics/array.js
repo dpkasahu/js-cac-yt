@@ -1,4 +1,9 @@
 //array
+const cars = [];
+cars[0]= "Saab";
+cars[1]= "Volvo";
+cars[2]= "BMW";
+
 
 const myArr=[0,1,2,3,4,5]
 const myheros=["xhj","ghh","fggh"]
@@ -38,3 +43,7 @@ console.log("B ", myArr);
 const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr);
 console.log(myn2);
+
+// converts an array to a string 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
