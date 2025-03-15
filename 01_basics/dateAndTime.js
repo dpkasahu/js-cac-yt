@@ -28,3 +28,18 @@ newDate.toLocaleString('default', {
     weekday: "long",
     
 })
+//++++++++++++++++++++++++++++Get Date Methods++++++++++++++++++++++++++++++++++++
+// In JavaScript, date objects are created with new Date().
+
+// new Date() returns a date object with the current date and time.
+const d = new Date();
+d.getFullYear();
+let ms = Date.now();
+// Date.now() is a static method of the Date object.
+
+// You cannot use it on a date object like myDate.now().
+
+// The syntax is always Date.now().
+
+
+
