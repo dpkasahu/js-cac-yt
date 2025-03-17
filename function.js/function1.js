@@ -1,11 +1,11 @@
 
 function sayMyName(){
-    console.log("H");
-    console.log("I");
-    console.log("T");
-    console.log("E");
-    console.log("S");
-    console.log("H");
+    console.log("B");
+    console.log("A");
+    console.log("P");
+    console.log("U");
+    console.log("N");
+    console.log("D");
 }
 
 // sayMyName()
@@ -35,8 +35,8 @@ function loginUserMessage(username = "sam"){
     return `${username} just logged in`
 }
 
-// console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh"))
+// console.log(loginUserMessage("DEEPIKA"))
+// console.log(loginUserMessage("BAPUN"))
 
 function calculateCartPrice(val1, val2, ...num1){
     return num1
