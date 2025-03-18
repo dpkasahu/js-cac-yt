@@ -16,20 +16,23 @@ const user = {
 // // console.log(this);
 
 // function chai(){
-//     let username = "hitesh"
+//     let username = "deepika"
 //     console.log({this.username});
 // }
 
 // chai()
 
 // const chai = function () {
-//     let username = "hitesh"
+//     let username = "yami"
 //     console.log(this.username);
 // }
 
+//+++++++++++++++++++++++++++ ARROW FUNCTION +++++++++++++++++++++++++++++++++++++++++++++
+//() => {}
+
 const chai =  () => {
-    let username = "hitesh"
-    console.log(this);
+    let username = "gugu"
+    console.log(this); //{}
 }
 
 
@@ -39,11 +42,11 @@ const chai =  () => {
 //     return num1 + num2
 // }
 
-// const addTwo = (num1, num2) =>  num1 + num2
+// const addTwo = (num1, num2) =>  num1 + num2 //implicive return
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo = (num1, num2) => ({username: "bapun"}) // to return object we have to write {}
 
 
 console.log(addTwo(3, 4))
