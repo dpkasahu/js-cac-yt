@@ -48,12 +48,12 @@ if (true) {
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+console.log(addone(5)) //6
 
 function addone(num){
     return num + 1
 }
-addTwo(5)
+addTwo(5) //it will not work bcz the variable is not initialized.
 const addTwo = function(num){
     return num + 2
     
