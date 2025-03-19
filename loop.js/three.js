@@ -33,6 +33,28 @@ for (const n of name) {
 
 // const name = "Deepika Sahu";
 console.log(name.split("").join(" "));
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ //map, filter and reduce
+        var array=[1,2,3,4,5]
+        var newArray =array.map(function(element){
+          return element*2;
+        });
+       // function triple(n){ 
+//     return n*3; 
+// }     
+// arr = new Array(1, 2, 3, 6, 5, 4); 
+  
+// var new_arr = arr.map(triple) 
+// console.log(new_arr);
+        var even=array.filter(function(element){
+            return element%2===0;
+        });
+        var sum=array.reduce(function(acc,cur){
+            return acc+cur;
+        },0);
+        console.log(sum);
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // Maps
 
 const map = new Map()
