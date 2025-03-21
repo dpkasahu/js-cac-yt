@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- A regular expression is a pattern of characters.
+The pattern is used for searching and replacing characters in strings.
+The RegExp Object is a regular expression with added Properties and Methods. 
+-->
+<p id="demo"></p>
+<!--
+/w3schools/	    A regular expression
+/w3schools/i	A case-insensitive regular expression 
+
+Modifiers::::-
+/g	Perform a global match (find all)
+/i	Perform case-insensitive matching
+/m	Perform multiline matching
+-->
+
+<!-- Brackets -->
+ 
+<!-- [abc]	Find any character between the brackets
+[^abc]	Find any character NOT between the brackets
+[0-9]	Find any character between the brackets (any digit)
+[^0-9]	Find any character NOT between the brackets (any non-digit)
+(x|y)	Find any of the alternatives specified -->
+
+<!-- Metacharacters
+  .	Find a single character, except newline or line terminator
+\w	Find a word character
+\W	Find a non-word character
+\d	Find a digit
+\D	Find a non-digit character
+\s	Find a whitespace character
+\S	Find a non-whitespace character
+\b	Find a match at the beginning/end of a word, beginning like this: \bHI, end like this: HI\b
+\B	Find a match, but not at the beginning/end of a word
+\0	Find a NULL character
+\n	Find a new line character
+\f	Find a form feed character
+\r	Find a carriage return character
+\t	Find a tab character
+\v	Find a vertical tab character
+\xxx Find the character specified by an octal number xxx
+\xdd Find the character specified by a hexadecimal number dd
+\udddd Find the Unicode character specified by a hexadecimal number dddd
+-->
+
+<script>
+    let regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+let mail = "test@example.com";
+if (regex.test(mail)) {
+    console.log("Valid Email address");
+} else {
+    console.log("Invalid Email address");
+}
+
+
+    let text = "Visit W3Schools";
+    let pattern = /w3schools/i;
+    let result = text.match(pattern);
+    
+    document.getElementById("demo").innerHTML = result;
+</script>
+</body>
+</html>
